@@ -1,35 +1,21 @@
 import React from 'react';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import { Container, Row, Carousel } from 'react-bootstrap';
+import '../css/CarouselComponent.css'; // Importa o arquivo CSS
+import videoBackground from '../assets/CellFuturista.mp4'; // Substitua pelo caminho do seu vídeo
 
 const CarouselComponent = () => {
   return (
     <Container className="carousel-container">
       <Row className="justify-content-center">
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://via.placeholder.com/800x400"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>Slide 1</h3>
-              <p>Descrição do primeiro slide.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://via.placeholder.com/800x400"
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h3>Slide 2</h3>
-              <p>Descrição do segundo slide.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          {/* Adicione mais Carousel.Items conforme necessário */}
-        </Carousel>
+        <div className="video-background">
+          <video autoPlay muted loop className="video">
+            <source src={videoBackground} type="video/mp4" />
+          </video>
+        </div>
+        <div className='text'>
+          <h2>Bem vindo a FHS Tecnology</h2>
+          <p>Aqui fica minha descriçao</p>
+        </div>
       </Row>
     </Container>
   );

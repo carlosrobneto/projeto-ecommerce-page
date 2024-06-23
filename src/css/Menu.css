@@ -1,23 +1,32 @@
 /* src/css/Menu.css */
+
 .menu-container {
-    margin-top: 20px; /* Ajusta a margem superior conforme necessário */
-  }
-  
-  .menu-item {
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .menu-item img {
-    width: 50px; /* Ajusta o tamanho da mini imagem conforme necessário */
-    height: 50px;
-    object-fit: cover;
-    border-radius: 50%; /* Deixa a imagem redonda */
-  }
-  
-  .menu-item span {
-    display: block;
-    margin-top: 5px; /* Espaço entre a imagem e a palavra */
-    font-size: 14px; /* Ajusta o tamanho da fonte conforme necessário */
-  }
-  
+  padding-top: 2%;
+  text-align: center;
+}
+
+.menu-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.menu-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.menu-item span {
+  display: block;
+  margin-top: 5px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-item a:hover {
+  text-decoration: none;
+  color: inherit;
+}

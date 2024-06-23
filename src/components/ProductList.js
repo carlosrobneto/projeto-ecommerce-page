@@ -3,11 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'; // Importa os ícones de seta corretos
 import ProductItem from './ProductItem';
 import '../css/ProductList.css';
-import fone from '../assets/FHS-headset.png'
-import fone_pro from '../assets/FHS-headset-pro.png'
-import smart_gamer from '../assets/FHS-smart-gamer.png'
-import smart_pro from '../assets/FHS-smart-pro.png'
-import tablet from '../assets/FHS-Tablet-pro.png'
+import fone from '../assets/FHS-headset.png';
+import fone_pro from '../assets/FHS-headset-pro.png';
+import smart_gamer from '../assets/FHS-smart-gamer.png';
+import smart_pro from '../assets/FHS-smart-pro.png';
+import tablet from '../assets/FHS-Tablet-pro.png';
+import notbook from '../assets/Notbook.jpg';
 import CarouselComponent from './Carousel'; // Importa o componente Carousel
 import Menu from './Menu';
 

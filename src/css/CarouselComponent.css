@@ -1,0 +1,36 @@
+/* src/css/CarouselComponent.css */
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Ajuste conforme necessário */
+  overflow: hidden;
+  text-align: center;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top; /* Adiciona esta linha para alinhar o topo do vídeo ao topo do container */
+}
+
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+} 
