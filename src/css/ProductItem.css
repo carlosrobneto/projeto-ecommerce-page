@@ -1,0 +1,57 @@
+/* src/css/ProductItem.css */
+.product-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  max-width: 300px; /* Define o tamanho máximo do card */
+  width: 100%; /* Garante que o card ocupe toda a largura disponível */
+  min-height: 350px;
+  max-height: 400px;
+  position: relative; /* Adiciona posição relativa para permitir posicionamento absoluto dos elementos internos */
+}
+
+.product-item img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-item h2 {
+  font-size: 1.5rem;
+}
+
+.product-item p {
+  margin: 0.5rem 0;
+}
+
+.product-item .card-body {
+  position: relative; /* Garante que os elementos dentro do card tenham posição relativa */
+}
+
+.product-item .price {
+  position: absolute;
+  bottom: calc(100% - 10px); /* Posiciona o preço 10px acima do fundo do card */
+  left: 0;
+  right: 0;
+  margin-top: -25px; /* Ajusta a posição para que fique 10px acima do botão */
+  color: red;
+}
+
+.product-item button {
+  position: absolute;
+  bottom: 10px; /* Ajusta a distância do botão em relação à borda inferior do card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}

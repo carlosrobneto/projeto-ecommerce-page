@@ -1,0 +1,25 @@
+.product-list-container {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.scroll-buttons {
+  margin-top: 10px;
+}
+
+.scroll-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+h3 {
+  padding-top: 25px;
+  padding-left: 20px;
+}
