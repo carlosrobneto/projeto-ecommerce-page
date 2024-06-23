@@ -9,7 +9,7 @@ const ProductItem = ({ product }) => {
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text>{product.description}</Card.Text>
-        <Card.Text>${product.price}</Card.Text>
+        <Card.Text>R${product.price},00</Card.Text>
         <Button variant="primary">Saiba mais</Button>
       </Card.Body>
     </Card>
